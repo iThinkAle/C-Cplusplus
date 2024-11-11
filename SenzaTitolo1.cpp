@@ -2,7 +2,7 @@
 using namespace std;
 
 namespace baule{
-	int	a = 1;
+	int a = 1;
 	int b = 2;
 	float c = 3.5;
 	const int d = 4;
@@ -111,7 +111,7 @@ int main(){
 
 	//cout << "risultato " << s;
     if (s == 3){
-        cout << "è 3";
+        cout << "Ã¨ 3";
     }
     else{
         cout << "altro";
