@@ -1,18 +1,35 @@
 #include <iostream>
+#include <string>
 using namespace std;
 
 namespace baule{
-	int a = 1;
+	int	a = 1;
 	int b = 2;
 	float c = 3.5;
 	const int d = 4;
 }
 
+namespace spazio{
+	int	e = 5;
+	int f = 6;
+	float g = 7.7;
+	float h = 8.88;
+	float i = 9.999;
+	string j = "10";
+	const int k = 11;
+	const int l = 12;
+}
+
 using namespace baule;
+using namespace spazio;
+
 
 int main(){
 	
-	cout << a << endl << b << endl << c << endl << d;
+	cout << a << endl << b << endl << c << endl << d << endl;
+	cout << a << endl << b << endl << c << endl << d << endl << e << endl << f << endl << g << endl << h << endl << i << endl << j << endl << k << endl << l;
+	
+	
 	
 	/*int const a = 10;
 	cout << a << endl;
@@ -111,7 +128,7 @@ int main(){
 
 	//cout << "risultato " << s;
     if (s == 3){
-        cout << "Ã¨ 3";
+        cout << "è 3";
     }
     else{
         cout << "altro";
