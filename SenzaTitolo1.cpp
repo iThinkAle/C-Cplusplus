@@ -3,14 +3,14 @@
 using namespace std;
 
 namespace baule{
-	int	a = 1;
+	int a = 1;
 	int b = 2;
 	float c = 3.5;
 	const int d = 4;
 }
 
 namespace spazio{
-	int	e = 5;
+	int e = 5;
 	int f = 6;
 	float g = 7.7;
 	float h = 8.88;
@@ -128,7 +128,7 @@ int main(){
 
 	//cout << "risultato " << s;
     if (s == 3){
-        cout << "è 3";
+        cout << "Ã¨ 3";
     }
     else{
         cout << "altro";
