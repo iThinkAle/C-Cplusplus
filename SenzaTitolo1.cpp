@@ -2,7 +2,7 @@
 #include <string>
 using namespace std;
 
-/*	\	
+/*
 namespace baule{
 	int	a = 1;
 	int b = 2;
